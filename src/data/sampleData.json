@@ -1,0 +1,455 @@
+{
+  "venues": {
+    "halls": [
+      {
+        "id": "hall-1",
+        "name": "Grand Ballroom",
+        "type": "halls",
+        "description": "Elegant ballroom with crystal chandeliers and marble floors, perfect for weddings and galas",
+        "capacity": 500,
+        "basePrice": 15000,
+        "additionalHourPrice": 1500,
+        "rating": 4.9,
+        "reviews": 127,
+        "image": "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "images": [
+          "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=800"
+        ],
+        "imageLabels": ["Main Hall View", "Stage Area", "Side Gallery", "Chandelier Detail", "Reception Area"],
+        "features": ["Crystal chandeliers", "Marble floors", "Stage area", "Bridal suite", "Dance floor"],
+        "location": "Main Building - Level 2",
+        "amenities": ["Parking for 200 cars", "Catering kitchen", "Sound system", "Climate control"],
+        "size": "5000 sq ft",
+        "availability": [
+          {"time": "09:00", "available": true, "price": 15000},
+          {"time": "13:00", "available": true, "price": 15000},
+          {"time": "18:00", "available": false, "price": 18000}
+        ]
+      },
+      {
+        "id": "hall-2",
+        "name": "Crystal Palace",
+        "type": "halls",
+        "description": "Modern luxury hall with LED lighting and contemporary design",
+        "capacity": 300,
+        "basePrice": 12000,
+        "additionalHourPrice": 1200,
+        "rating": 4.8,
+        "reviews": 89,
+        "image": "https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "images": [
+          "https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/1395967/pexels-photo-1395967.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800"
+        ],
+        "imageLabels": ["Main Hall", "Modern Stage", "VIP Section", "Outdoor Terrace", "Bar Area"],
+        "features": ["LED lighting", "Modern design", "VIP area", "Outdoor terrace", "Smart controls"],
+        "location": "Main Building - Level 1",
+        "amenities": ["Valet parking", "Full bar", "Climate control", "Tech support"],
+        "size": "3000 sq ft"
+      },
+      {
+        "id": "hall-3",
+        "name": "Heritage Hall",
+        "type": "halls",
+        "description": "Classic hall with traditional architecture and vintage charm",
+        "capacity": 200,
+        "basePrice": 8000,
+        "additionalHourPrice": 800,
+        "rating": 4.7,
+        "reviews": 156,
+        "image": "https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "images": [
+          "https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/1395967/pexels-photo-1395967.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=800"
+        ],
+        "imageLabels": ["Main Hall", "Library Corner", "Fireplace Lounge", "Garden View", "Vintage Setup"],
+        "features": ["Traditional architecture", "Vintage decor", "Fireplace", "Library corner", "Garden access"],
+        "location": "Heritage Wing",
+        "amenities": ["Garden access", "Photography areas", "Catering prep", "Historic charm"],
+        "size": "2500 sq ft"
+      },
+      {
+        "id": "hall-4",
+        "name": "Skyline Hall",
+        "type": "halls",
+        "description": "Rooftop hall with panoramic city views and modern amenities",
+        "capacity": 250,
+        "basePrice": 10000,
+        "additionalHourPrice": 1000,
+        "rating": 4.9,
+        "reviews": 78,
+        "image": "https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "images": [
+          "https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=800"
+        ],
+        "imageLabels": ["Main Rooftop", "City Skyline", "Sunset View", "Terrace Setup", "Night Ambiance"],
+        "features": ["City views", "Rooftop terrace", "Modern design", "Sunset views", "Open-air option"],
+        "location": "Rooftop - Level 5",
+        "amenities": ["Elevator access", "Climate control", "Premium bar", "Photography spots"],
+        "size": "2800 sq ft"
+      }
+    ],
+    "nightclub": [
+      {
+        "id": "club-coded",
+        "name": "Club Coded",
+        "type": "nightclub",
+        "description": "Premier nightclub with world-class DJs, VIP sections, and electrifying atmosphere",
+        "capacity": 400,
+        "pricePerHour": 300,
+        "rating": 4.8,
+        "reviews": 245,
+        "image": "https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "features": ["Professional DJ booth", "VIP sections", "LED dance floor", "Premium sound system", "Laser lights"],
+        "location": "Underground Level",
+        "amenities": ["Full bar", "Security", "Coat check", "VIP parking"],
+        "size": "4000 sq ft",
+        "events": [
+          {
+            "name": "Saturday Night Fever",
+            "date": "2024-01-20",
+            "time": "22:00",
+            "dj": "DJ Maximus",
+            "ticketPrice": 30,
+            "vipPrice": 200
+          }
+        ]
+      }
+    ],
+    "lounge": [
+      {
+        "id": "circle-lounge",
+        "name": "Circle Lounge",
+        "type": "lounge",
+        "description": "Sophisticated lounge with premium cocktails, fine dining, and intimate atmosphere",
+        "capacity": 120,
+        "pricePerHour": 200,
+        "rating": 4.7,
+        "reviews": 189,
+        "image": "https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "features": ["Premium bar", "Fine dining", "Live jazz", "Private booths", "Wine cellar"],
+        "location": "Main Building - Level 3",
+        "amenities": ["Sommelier service", "Private dining", "Live entertainment"],
+        "size": "2500 sq ft",
+        "spaces": [
+          {
+            "id": "main-area",
+            "name": "Main Lounge Area",
+            "capacity": 80,
+            "pricePerHour": 150
+          },
+          {
+            "id": "private-dining",
+            "name": "Private Dining Room",
+            "capacity": 20,
+            "pricePerHour": 200
+          },
+          {
+            "id": "wine-room",
+            "name": "Wine Tasting Room",
+            "capacity": 15,
+            "pricePerHour": 180
+          }
+        ]
+      }
+    ],
+    "offices": [
+      {
+        "id": "office-1",
+        "name": "Executive Suite A",
+        "type": "office",
+        "description": "Premium corner office with city views and executive amenities",
+        "capacity": 4,
+        "monthlyRate": 2500,
+        "dailyRate": 120,
+        "rating": 4.8,
+        "reviews": 45,
+        "image": "https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "features": ["City views", "Executive desk", "Meeting area", "Private entrance"],
+        "location": "Business Wing - Level 4",
+        "amenities": ["High-speed internet", "Parking", "Reception services"],
+        "size": "400 sq ft"
+      },
+      {
+        "id": "office-2",
+        "name": "Team Office B",
+        "type": "office",
+        "description": "Open-plan office perfect for small teams and startups",
+        "capacity": 8,
+        "monthlyRate": 3500,
+        "dailyRate": 180,
+        "rating": 4.6,
+        "reviews": 32,
+        "image": "https://images.pexels.com/photos/1170412/pexels-photo-1170412.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "features": ["Open layout", "Collaboration space", "Storage units", "Presentation area"],
+        "location": "Business Wing - Level 3",
+        "amenities": ["Conference room access", "Kitchen facilities", "Printing services"],
+        "size": "600 sq ft"
+      },
+      {
+        "id": "office-3",
+        "name": "Creative Studio C",
+        "type": "office",
+        "description": "Inspiring creative space with natural light and flexible layout",
+        "capacity": 6,
+        "monthlyRate": 2800,
+        "dailyRate": 140,
+        "rating": 4.7,
+        "reviews": 28,
+        "image": "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "features": ["Natural light", "Flexible furniture", "Design materials", "Inspiration wall"],
+        "location": "Creative Wing - Level 2",
+        "amenities": ["Art supplies", "Presentation tools", "Relaxation area"],
+        "size": "500 sq ft"
+      },
+      {
+        "id": "office-4",
+        "name": "Meeting Room Alpha",
+        "type": "office",
+        "description": "Professional meeting room with video conferencing capabilities",
+        "capacity": 12,
+        "monthlyRate": 1800,
+        "dailyRate": 90,
+        "rating": 4.5,
+        "reviews": 67,
+        "image": "https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "features": ["Video conferencing", "Whiteboard", "Projector", "Conference table"],
+        "location": "Business Wing - Level 2",
+        "amenities": ["Tech support", "Catering services", "Recording capabilities"],
+        "size": "300 sq ft"
+      },
+      {
+        "id": "office-5",
+        "name": "Private Office D",
+        "type": "office",
+        "description": "Quiet private office ideal for consultants and freelancers",
+        "capacity": 2,
+        "monthlyRate": 1500,
+        "dailyRate": 75,
+        "rating": 4.4,
+        "reviews": 23,
+        "image": "https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "features": ["Private space", "Ergonomic furniture", "Storage cabinet", "Phone booth"],
+        "location": "Business Wing - Level 1",
+        "amenities": ["Mail handling", "Reception services", "Coffee station"],
+        "size": "200 sq ft"
+      },
+      {
+        "id": "office-6",
+        "name": "Co-working Space E",
+        "type": "office",
+        "description": "Dynamic co-working environment with hot desks and networking opportunities",
+        "capacity": 20,
+        "monthlyRate": 800,
+        "dailyRate": 40,
+        "rating": 4.3,
+        "reviews": 156,
+        "image": "https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "features": ["Hot desks", "Networking events", "Flexible seating", "Community board"],
+        "location": "Co-working Wing - Level 1",
+        "amenities": ["24/7 access", "Community events", "Shared resources"],
+        "size": "800 sq ft"
+      },
+      {
+        "id": "office-7",
+        "name": "Tech Hub F",
+        "type": "office",
+        "description": "High-tech office space with advanced IT infrastructure",
+        "capacity": 10,
+        "monthlyRate": 4000,
+        "dailyRate": 200,
+        "rating": 4.9,
+        "reviews": 41,
+        "image": "https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "features": ["Advanced IT setup", "Server room access", "Multiple monitors", "Gaming area"],
+        "location": "Tech Wing - Level 3",
+        "amenities": ["IT support", "High-speed internet", "Equipment rental"],
+        "size": "700 sq ft"
+      },
+      {
+        "id": "office-8",
+        "name": "Boardroom G",
+        "type": "office",
+        "description": "Executive boardroom for high-level meetings and presentations",
+        "capacity": 16,
+        "monthlyRate": 3000,
+        "dailyRate": 150,
+        "rating": 4.8,
+        "reviews": 52,
+        "image": "https://images.pexels.com/photos/1395967/pexels-photo-1395967.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "features": ["Executive table", "Premium AV", "Catering setup", "Privacy glass"],
+        "location": "Executive Wing - Level 4",
+        "amenities": ["Concierge service", "Catering options", "Valet parking"],
+        "size": "450 sq ft"
+      },
+      {
+        "id": "office-9",
+        "name": "Startup Incubator H",
+        "type": "office",
+        "description": "Collaborative space designed for startup teams and entrepreneurs",
+        "capacity": 15,
+        "monthlyRate": 2200,
+        "dailyRate": 110,
+        "rating": 4.6,
+        "reviews": 38,
+        "image": "https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "features": ["Startup resources", "Mentorship access", "Pitch area", "Collaboration tools"],
+        "location": "Innovation Wing - Level 2",
+        "amenities": ["Mentorship programs", "Investor network", "Business support"],
+        "size": "650 sq ft"
+      },
+      {
+        "id": "office-10",
+        "name": "Wellness Office I",
+        "type": "office",
+        "description": "Health-focused office space with wellness amenities and natural elements",
+        "capacity": 6,
+        "monthlyRate": 2000,
+        "dailyRate": 100,
+        "rating": 4.7,
+        "reviews": 29,
+        "image": "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "features": ["Natural elements", "Wellness corner", "Meditation space", "Air purification"],
+        "location": "Wellness Wing - Level 1",
+        "amenities": ["Wellness programs", "Healthy snacks", "Fitness access"],
+        "size": "400 sq ft"
+      }
+    ],
+    "fields": [
+      {
+        "id": "field-1",
+        "name": "Grand Green Field",
+        "type": "fields",
+        "description": "Expansive outdoor field perfect for large trade fairs, festivals, and corporate events",
+        "capacity": 2000,
+        "pricePerDay": 1500,
+        "rating": 4.8,
+        "reviews": 89,
+        "image": "https://images.pexels.com/photos/1263986/pexels-photo-1263986.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "features": ["Stage area", "Power distribution", "Water access", "Security fencing"],
+        "location": "North Field Area",
+        "amenities": ["Parking for 500 cars", "Restroom facilities", "Food vendor areas"],
+        "size": "5 acres"
+      },
+      {
+        "id": "field-2",
+        "name": "Community Gathering Field",
+        "type": "fields",
+        "description": "Medium-sized field ideal for community events, picnics, and family gatherings",
+        "capacity": 800,
+        "pricePerDay": 800,
+        "rating": 4.6,
+        "reviews": 124,
+        "image": "https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "features": ["Picnic areas", "BBQ stations", "Playground access", "Shade structures"],
+        "location": "Central Field Area",
+        "amenities": ["Parking for 200 cars", "Restroom facilities", "Equipment rental"],
+        "size": "2.5 acres"
+      },
+      {
+        "id": "field-3",
+        "name": "Trade Fair Grounds",
+        "type": "fields",
+        "description": "Professional outdoor space designed specifically for trade shows and exhibitions",
+        "capacity": 1500,
+        "pricePerDay": 1200,
+        "rating": 4.7,
+        "reviews": 67,
+        "image": "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "features": ["Exhibition booths", "Power outlets", "Loading docks", "Display areas"],
+        "location": "South Field Area",
+        "amenities": ["Vendor support", "Security services", "Equipment storage"],
+        "size": "4 acres"
+      }
+    ]
+  },
+  "bookings": [
+    {
+      "id": "booking-1",
+      "venueId": "hall-1",
+      "venueName": "Grand Ballroom",
+      "venueType": "halls",
+      "userId": "user-1",
+      "date": "2024-02-15",
+      "timeSlot": "18:00",
+      "duration": 6,
+      "guests": 300,
+      "services": ["catering", "decoration", "audio"],
+      "totalPrice": 8500,
+      "status": "confirmed",
+      "customerInfo": {
+        "name": "Sarah Johnson",
+        "email": "sarah@example.com",
+        "phone": "+1234567890",
+        "company": "Johnson Events"
+      },
+      "paymentStatus": "paid",
+      "createdAt": "2024-01-15T10:30:00Z",
+      "updatedAt": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "booking-2",
+      "venueId": "club-coded",
+      "venueName": "Club Coded",
+      "venueType": "nightclub",
+      "userId": "user-2",
+      "date": "2024-02-20",
+      "timeSlot": "22:00",
+      "duration": 5,
+      "guests": 200,
+      "services": ["security", "vip"],
+      "totalPrice": 2500,
+      "status": "pending",
+      "customerInfo": {
+        "name": "Mike Chen",
+        "email": "mike@example.com",
+        "phone": "+1234567891"
+      },
+      "paymentStatus": "pending",
+      "createdAt": "2024-01-16T14:20:00Z",
+      "updatedAt": "2024-01-16T14:20:00Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "user-1",
+      "email": "admin@dome.com",
+      "name": "Admin User",
+      "role": "admin",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "user-2",
+      "email": "sarah@example.com",
+      "name": "Sarah Johnson",
+      "role": "customer",
+      "createdAt": "2024-01-10T00:00:00Z"
+    }
+  ],
+  "stats": {
+    "totalRevenue": 125000,
+    "totalBookings": 89,
+    "activeBookings": 23,
+    "completedBookings": 66,
+    "monthlyGrowth": 15.5,
+    "popularVenues": [
+      {"venueId": "hall-1", "venueName": "Grand Ballroom", "bookingCount": 25},
+      {"venueId": "club-coded", "venueName": "Club Coded", "bookingCount": 18},
+      {"venueId": "circle-lounge", "venueName": "Circle Lounge", "bookingCount": 15}
+    ]
+  }
+}

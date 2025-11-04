@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide browser's default password reveal and clear icons */
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+input::-webkit-clear-button,
+input::-webkit-credentials-auto-fill-button {
+  display: none !important;
+  appearance: none;
+}
