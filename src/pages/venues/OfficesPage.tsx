@@ -352,7 +352,7 @@ const OfficesPage: React.FC = () => {
         <section className="mb-16">
           <div className="text-center mb-8">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              About The Dome Business Center
+              About The Dome Office Spaces
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300">
               Discover what makes us the premier choice for businesses

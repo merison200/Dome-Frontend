@@ -1238,8 +1238,8 @@ const LoungePage: React.FC = () => {
         'https://res.cloudinary.com/drixel4wv/image/upload/v1760625381/Goat_meat_pepper_soup_jqlff9.jpg',
         'https://res.cloudinary.com/drixel4wv/image/upload/v1760625381/download_rln3cr.jpg'
       ],
-      labels: ['Amara & Ewedu', 'Pepper Soup', 'Ofada Rice'],
-      items: ['Amara & Ewedu', 'Pepper Soup', 'Ofada Rice', 'Brokoto', 'Snails Etc']
+      labels: ['Amala & Ewedu', 'Pepper Soup', 'Ofada Rice'],
+      items: ['Amala & Ewedu', 'Pepper Soup', 'Ofada Rice', 'Brokoto', 'Snails Etc']
     },
     {
       id: 'fast',
